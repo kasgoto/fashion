@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from "framer-motion"
 import { Squash as Hamburger } from "hamburger-react"
 import Navlink from "./Navlink"
 import MobileNavlink from "./MobileNavlink"
+import Logo from "../../assets/icons/logo.svg"
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false)
@@ -21,7 +22,7 @@ const Header = () => {
         <div className='flex flex-1 my-auto transition hover:opacity-65'>
           <a href='#' className='gap-3 flex'>
             <img
-              src='/src/assets/icons/logo.svg'
+              src={Logo}
               className='w-8 h-8 my-auto'
               alt='logo'
             />
