@@ -2,7 +2,7 @@ import ImgBanner from "../assets/images/promo-img.jpg"
 
 const Banner = () => {
   return (
-    <div className='max-w-[1720px] w-screen mt-[60px] md:mt-[143px] min-h-[700px] md:min-h-[900px] 2xl:min-h-fit flex items-center justify-center mx-auto bg-banner-gradient overflow-hidden'>
+    <div className='max-w-[1895px] w-screen mt-[60px] md:mt-[143px] min-h-[700px] md:min-h-[900px] 2xl:min-h-fit flex items-center justify-center mx-auto bg-banner-gradient overflow-hidden'>
       <img
         src={ImgBanner}
         alt='banner image'
